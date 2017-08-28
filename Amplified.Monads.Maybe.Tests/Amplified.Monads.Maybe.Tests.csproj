@@ -4,13 +4,6 @@
     <TargetFrameworks>netcoreapp1.1;net452</TargetFrameworks>
     <AssemblyName>Amplified.Monads.Maybe.Tests</AssemblyName>
     <PackageId>Amplified.Monads.Maybe.Tests</PackageId>
-    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
-    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
-    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
-    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
     <RootNamespace>Amplified.Monads.Maybe</RootNamespace>
     <CopyNuGetImplementations>true</CopyNuGetImplementations>
     <PlatformTarget>AnyCPU</PlatformTarget>
