@@ -4,7 +4,7 @@
     <RootNamespace>Amplified.Monads</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IncludeSymbols>True</IncludeSymbols>
-    <Version>3.0.0</Version>
+    <Version>3.0.1</Version>
     <Authors>Nicklas Jensen</Authors>
     <Company />
     <Product>Amplified.Monads.Maybe</Product>
