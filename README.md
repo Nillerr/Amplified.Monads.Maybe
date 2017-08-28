@@ -17,12 +17,12 @@ Install-Package Amplified.Monads.Maybe
 We recommended adding a static import of the following namespace, in files where creation of `Maybe<T>` 
 instances occur.
 ```C#
-using static Amplified.Monads.Maybe.Maybe;
+using static Amplified.Monads.Maybe;
 ```
 
 This allows you to use the library as it was intended. Example:
 ```C#
-using Amplified.Monads.Maybe;
+using Amplified.Monads;
 ...
     Maybe<int> foo = Maybe.Some(1);
     Maybe<int> bar = Maybe.None();
@@ -31,8 +31,8 @@ using Amplified.Monads.Maybe;
 
 Becomes:
 ```C#
-using Amplified.Monads.Maybe;
-using static Amplified.Monads.Maybe.Maybe;
+using Amplified.Monads;
+using static Amplified.Monads.Maybe;
 ...
     Maybe<int> foo = Some(1);
     Maybe<int> bar = None();
@@ -55,7 +55,7 @@ to `Maybe<T>`, without having any type arguments itself. The reason this is requ
 
 ```C#
 using System;
-using Amplified.Monads.Maybe;
+using Amplified.Monads;
 
 class Program {
     public static void Main(string[] args) 
@@ -94,7 +94,7 @@ class Program {
 #### Some
 
 `Maybe.Some<T>(T value)` represents the presence of a value. It is recommended to use a static import of 
-`Amplified.Monads.Maybe.Maybe` to achieve a fluent functional syntax.
+`Amplified.Monads.Maybe` to achieve a fluent functional syntax.
 
 #### None
 
@@ -149,8 +149,8 @@ public async Task<Token> ObtainToken()
 ```C#
 using System;
 using System.Threading.Tasks;
-using Amplified.Monads.Maybe;
-using static Amplified.Monads.Maybe.Maybe;
+using Amplified.Monads;
+using static Amplified.Monads.Maybe;
 
 public void Demonstration()
 {
