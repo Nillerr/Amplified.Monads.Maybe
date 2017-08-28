@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!--<Import Project="..\packages\xunit.core\2.2.0\build\uap10.0\xunit.core.props" Condition="Exists('..\packages\xunit.core\2.2.0\build\uap10.0\xunit.core.props')" />-->
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp1.1;net452</TargetFrameworks>
+    <AssemblyName>Amplified.Monads.Maybe.Tests</AssemblyName>
+    <PackageId>Amplified.Monads.Maybe.Tests</PackageId>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <RootNamespace>Amplified.Monads.Maybe</RootNamespace>
+    <CopyNuGetImplementations>true</CopyNuGetImplementations>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Amplified.Monads.Maybe\Amplified.Monads.Maybe.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="OpenCover" Version="4.6.519" />
+    <PackageReference Include="System.ValueTuple" Version="4.3.1" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.console" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+  </ItemGroup>
+  <!--
+  <Target Name="xUnitRequired">
+    <Error
+      Condition="!Exists('..\packages\xunit.core\2.2.0\build\uap10.0\xunit.core.props')"
+      Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core\2.2.0\build\uap10.0\xunit.core.props'))" />
+  </Target>
+  -->
+</Project>

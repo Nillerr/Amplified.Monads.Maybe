@@ -1,0 +1,33 @@
+﻿using System;
+using System.Threading.Tasks;
+using Amplified.Monads.Maybe.Extensions;
+using Xunit;
+
+namespace Amplified.Monads.Maybe
+{
+    public static class MaybeAssertions
+    {
+        public static void MustBeNone<T>(this Maybe<T> source)
+        {
+            Assert.Equal(source.IsNone, true);
+            Assert.Equal(source.IsSome, false);
+        }
+
+        public static T MustBeSome<T>(this Maybe<T> source)
+        {
+            Assert.Equal(source.IsNone, false);
+            Assert.Equal(source.IsSome, true);
+            return source.OrFail();
+        }
+
+        public static T OrFail<T>(this Maybe<T> source)
+        {
+            return source.OrThrow(() => new ArgumentException(nameof(source)));
+        }
+
+        public static async Task<T> OrFail<T>(this AsyncMaybe<T> source)
+        {
+            return (await source.ToTask()).OrFail();
+        }
+    }
+}
