@@ -39,37 +39,6 @@ using static Amplified.Monads.Maybe.Maybe;
 ...
 ``` 
 
-### Unit
-
-`Unit` represents the lack of a value, sort of like `void`. Unlike `void`, it is an actual type, and can 
-be referenced and operated upon. The difference between `Unit` and `None` is that `None` is actually one 
-of the possible types of a `Maybe<T>`, whereas `Unit` has no relationship with `Maybe<T>`.
-
-#### Examples
-
-```C#
-using System;
-using Amplified.Monads.Maybe;
-
-class Program
-{
-    public static void Main(string[] args)
-    {
-        var arg1 = args.FirstOrNone().OrThrow(() => new ArgumentException());
-        
-        Unit ignored = ParseInt(arg1)
-            .Map(intArg => Store(intArg).Return(intArg))
-            .Match(
-                intArg => Console.WriteLine($"Stored: {intArg}"),
-                none => Console.WriteLine("Invalid input arguments") 
-            );
-    }
-    
-    public static Unit Store(int value)
-    { ... }
-}
-```
-
 ### Maybe
 
 `Maybe<T>` represents the possibility for the presence of a value, sort of like `null` does for reference 
@@ -100,7 +69,7 @@ class Program {
             );
     }
     
-    private Unit DisplayNoRelatedProducts(ProductId source)
+    private void DisplayNoRelatedProducts(ProductId source)
     {
         Console.WriteLine($"Product {source} has no related products");
     }
