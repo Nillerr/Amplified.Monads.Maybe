@@ -1,6 +1,6 @@
 using System;
 
-namespace Amplified.Monads.Maybe.Attributes
+namespace Amplified.Monads.Attributes
 {
     [AttributeUsage(AttributeTargets.All)]
     internal class ExcludeFromCoverage : Attribute

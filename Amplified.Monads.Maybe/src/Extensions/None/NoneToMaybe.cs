@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Amplified.Monads.Maybe.Extensions
+namespace Amplified.Monads.Extensions
 {
     public static class NoneToMaybe
     {

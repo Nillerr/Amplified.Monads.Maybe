@@ -1,4 +1,4 @@
-namespace Amplified.Monads.Maybe.Internal
+namespace Amplified.Monads.Internal
 {
     /// <summary>
     ///     Represents a type that can be equiavalent to <c>None</c>.

@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Reflection;
 
-namespace Amplified.Monads.Maybe.ComponentModel
+namespace Amplified.Monads.ComponentModel
 {
     public sealed class MaybeConverter : TypeConverter
     {

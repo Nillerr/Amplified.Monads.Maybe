@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class Maybe__MatchSome__Action_T

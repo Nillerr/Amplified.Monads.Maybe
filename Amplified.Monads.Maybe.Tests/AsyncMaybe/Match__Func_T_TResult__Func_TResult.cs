@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class AsyncMaybe__Match__Func_T_TResult__Func_TResult

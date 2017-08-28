@@ -1,7 +1,7 @@
 using Xunit;
-using static Amplified.Monads.Maybe.Maybe;
+using static Amplified.Monads.Maybe;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class Maybe__Match__Action_T__Action_None

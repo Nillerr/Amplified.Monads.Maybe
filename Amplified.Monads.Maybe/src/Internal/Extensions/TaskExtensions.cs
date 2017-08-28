@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Amplified.Monads.Maybe.Internal.Extensions
+namespace Amplified.Monads.Internal.Extensions
 {
     internal static class TaskExtensions
     {

@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Amplified.Monads.Maybe.Internal.Extensions;
-using static Amplified.Monads.Maybe.Maybe;
+using Amplified.Monads.Internal.Extensions;
+using static Amplified.Monads.Maybe;
 
-namespace Amplified.Monads.Maybe.Extensions
+namespace Amplified.Monads.Extensions
 {
     public static class NoneToAsyncMaybe
     {

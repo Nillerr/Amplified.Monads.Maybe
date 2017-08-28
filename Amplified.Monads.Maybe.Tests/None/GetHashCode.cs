@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class None__GetHashCode

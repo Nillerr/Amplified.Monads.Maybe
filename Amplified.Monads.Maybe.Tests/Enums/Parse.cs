@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     public class Parse
     {

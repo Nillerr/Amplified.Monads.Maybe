@@ -1,7 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard1.5;net452</TargetFrameworks>
+    <RootNamespace>Amplified.Monads</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
     <Version>3.0.0</Version>
     <Authors>Nicklas Jensen</Authors>
     <Company />

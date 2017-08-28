@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Amplified.Monads.Maybe.Util
+namespace Amplified.Monads.Util
 {
     public class ExpectedException : Exception
     {

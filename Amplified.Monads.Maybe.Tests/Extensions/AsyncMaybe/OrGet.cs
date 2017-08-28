@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Amplified.Monads.Maybe.Extensions;
+using Amplified.Monads.Extensions;
 using Xunit;
-using static Amplified.Monads.Maybe.Maybe;
+using static Amplified.Monads.Maybe;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class AsyncMaybe_OrGet

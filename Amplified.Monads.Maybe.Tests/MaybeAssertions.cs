@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Amplified.Monads.Maybe.Extensions;
+using Amplified.Monads.Extensions;
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     public static class MaybeAssertions
     {

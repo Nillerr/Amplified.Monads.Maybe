@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
-using Amplified.Monads.Maybe.Extensions;
+using Amplified.Monads.Extensions;
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class Maybe__Zip4

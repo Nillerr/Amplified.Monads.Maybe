@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Amplified.Monads.Maybe.Extensions;
+using Amplified.Monads.Extensions;
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class Dictionary__GetValueOrNone

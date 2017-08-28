@@ -1,8 +1,8 @@
 using System;
-using Amplified.Monads.Maybe.Attributes;
+using Amplified.Monads.Attributes;
 using Xunit;
 
-namespace Amplified.Monads.Maybe.Util
+namespace Amplified.Monads.Util
 {
     public class Record
     {

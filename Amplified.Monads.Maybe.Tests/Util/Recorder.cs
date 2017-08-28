@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Amplified.Monads.Maybe.Util
+namespace Amplified.Monads.Util
 {
     public struct Invocations
     {

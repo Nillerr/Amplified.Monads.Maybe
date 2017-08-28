@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     internal static class TaskCache
     {

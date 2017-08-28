@@ -1,8 +1,8 @@
 using System;
 using System.Diagnostics;
-using Amplified.Monads.Maybe.Attributes;
+using Amplified.Monads.Attributes;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     public abstract class EnumsBase<TEnum>
     {

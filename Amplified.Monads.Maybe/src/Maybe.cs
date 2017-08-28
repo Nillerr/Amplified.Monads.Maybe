@@ -4,12 +4,12 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Globalization;
 using System.Threading.Tasks;
-using Amplified.Monads.Maybe.ComponentModel;
-using Amplified.Monads.Maybe.Internal;
-using Amplified.Monads.Maybe.Internal.Extensions;
+using Amplified.Monads.ComponentModel;
+using Amplified.Monads.Internal;
+using Amplified.Monads.Internal.Extensions;
 using JetBrains.Annotations;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     /// <summary>
     ///   <para>

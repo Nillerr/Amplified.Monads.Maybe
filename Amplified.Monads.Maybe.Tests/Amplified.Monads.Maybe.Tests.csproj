@@ -4,7 +4,7 @@
     <TargetFrameworks>netcoreapp1.1;net452</TargetFrameworks>
     <AssemblyName>Amplified.Monads.Maybe.Tests</AssemblyName>
     <PackageId>Amplified.Monads.Maybe.Tests</PackageId>
-    <RootNamespace>Amplified.Monads.Maybe</RootNamespace>
+    <RootNamespace>Amplified.Monads</RootNamespace>
     <CopyNuGetImplementations>true</CopyNuGetImplementations>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>

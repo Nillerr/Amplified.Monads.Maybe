@@ -1,8 +1,8 @@
 using System;
-using Amplified.Monads.Maybe.Internal;
+using Amplified.Monads.Internal;
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class None__Equals

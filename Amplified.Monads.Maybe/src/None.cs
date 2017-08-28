@@ -1,9 +1,9 @@
 using System;
 using System.Diagnostics;
-using Amplified.Monads.Maybe.Internal;
+using Amplified.Monads.Internal;
 using JetBrains.Annotations;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     /// <summary>
     ///     None represents the lack of a value, alike <c>void</c>, but unlike <c>void</c>, <c>None</c> is a real type.

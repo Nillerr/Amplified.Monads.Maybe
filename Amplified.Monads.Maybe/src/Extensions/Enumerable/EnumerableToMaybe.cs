@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Amplified.Monads.Maybe.Extensions
+namespace Amplified.Monads.Extensions
 {
     public static class EnumerableToMaybe
     {

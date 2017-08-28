@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Amplified.Monads.Maybe.Extensions;
-using Amplified.Monads.Maybe.Util;
+using Amplified.Monads.Extensions;
+using Amplified.Monads.Util;
 using Xunit;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     // ReSharper disable once InconsistentNaming
     public class Maybe__FlatMapAsync

@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
-using Amplified.Monads.Maybe.ComponentModel;
+using Amplified.Monads.ComponentModel;
 using Xunit;
 
-namespace Amplified.Monads.Maybe.TypeConversion
+namespace Amplified.Monads.TypeConversion
 {
     public class GetConverter
     {

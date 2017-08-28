@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
-using static Amplified.Monads.Maybe.Maybe;
+using static Amplified.Monads.Maybe;
 
-namespace Amplified.Monads.Maybe.Extensions
+namespace Amplified.Monads.Extensions
 {
     public static class AsyncMaybeOr
     {

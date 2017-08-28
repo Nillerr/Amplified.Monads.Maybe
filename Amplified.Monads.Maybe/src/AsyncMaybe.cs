@@ -2,10 +2,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using Amplified.Monads.Maybe.Internal.Extensions;
+using Amplified.Monads.Internal.Extensions;
 using JetBrains.Annotations;
 
-namespace Amplified.Monads.Maybe
+namespace Amplified.Monads
 {
     [DebuggerStepThrough]
     public struct AsyncMaybe<T>

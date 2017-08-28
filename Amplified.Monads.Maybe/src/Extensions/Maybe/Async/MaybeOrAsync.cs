@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using Amplified.Monads.Maybe.Internal.Extensions;
+using Amplified.Monads.Internal.Extensions;
 
-namespace Amplified.Monads.Maybe.Extensions
+namespace Amplified.Monads.Extensions
 {
     public static class MaybeOrAsync
     {
