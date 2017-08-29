@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.5;net452</TargetFrameworks>
+    <RootNamespace>Amplified.Monads.Json</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
+    <Version>3.0.1</Version>
+    <Authors>Nicklas Jensen</Authors>
+    <Company />
+    <Product>Amplified.Monads.Maybe.Json</Product>
+    <Description>A JsonConverter for serializing to / from Maybe using Newtonsoft.Json.</Description>
+    <Copyright>Nicklas Jensen</Copyright>
+    <PackageLicenseUrl>https://github.com/Nillerr/Amplified.Monads.Maybe/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Nillerr/Amplified.Monads.Maybe</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Nillerr/Amplified.Monads.Maybe</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Maybe,Option,Optional,Some,None,Functional,Json</PackageTags>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net452'">
+    <PackageReference Include="Newtonsoft.Json" Version="6.0.1" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.5'">
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Amplified.Monads.Maybe\Amplified.Monads.Maybe.csproj" />
+  </ItemGroup>
+</Project>
